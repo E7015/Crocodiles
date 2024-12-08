@@ -60,19 +60,19 @@ body {background-color: rgba(36, 22, 22, 1)}
 .text-overlay h1 {
     position:absolute;
     top: 82%;
-    left: 23%;
+    left: 22.5%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: 85px;
+    font-size: 78px;
 }
 
 .text-overlay h2 {
     position: absolute;
     top: 97%;
-    left: 10%;
+    left: 11.5%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 h1 {
