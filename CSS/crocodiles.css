@@ -19,7 +19,7 @@ body {background-color: rgba(36, 22, 22, 1)}
     background-color:rgba(0, 0, 0, 0.648);
     color: #ffffff;
     font-size: 30px;
-    margin-right: 16px;
+    margin-right: 16px; 
 }
 
 .topnav {
@@ -108,11 +108,56 @@ p {
 }
 
 p::first-letter {
-    font-size: 60px;
+    float:left;
+    font-size: 2em;
     font-weight: 100;
+    line-height: 80%;
     color: rgba(250, 183, 87, 1);
 }
 
 .color-block {
     background-color: rgba(36, 22, 22, 1);
+}
+
+.flex-container-dolls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-author {
+    margin-left: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.born {
+    margin-left: 0px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.august {
+    margin-left: 300px ;
+}
+
+.july {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.flex-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-sculpture {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
