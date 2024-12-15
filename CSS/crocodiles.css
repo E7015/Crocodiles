@@ -8,10 +8,7 @@
     padding: 0;
     margin: 0;
     font-size: 100%;
-    line-height: 1em;
 }
-
-body {background-color: rgba(36, 22, 22, 1)}
 
 .header {
     padding: 100px;
@@ -57,16 +54,20 @@ body {background-color: rgba(36, 22, 22, 1)}
     overflow:hidden;
 }
 
-.text-overlay h1 {
+.text-overlay-h1 {
     position:absolute;
     top: 82%;
     left: 22.5%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     font-size: 78px;
+    line-height: 85px;
 }
 
-.text-overlay h2 {
+.text-overlay-h2 {
+    font-family: "Cormorant Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: normal;
     position: absolute;
     top: 97%;
     left: 11.5%;
@@ -81,42 +82,61 @@ h1 {
     font-style: normal;
   }
 
-h2 {
-    font-family: "Cormorant Garamond", Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 30px;
+.colour-block-intro {
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
 
-h2 {
-    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
-    font-style:normal;
-    font-weight: 500;
-    font-size: 40px;
-    color: rgba(250, 183, 87, 1);
+.colour-block-about-author {
+    background-color: rgba(36, 22, 22, 1);
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-p {
+.intro {
+    color: black;
     font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
     font-style:normal;
     font-weight: 50;
     font-size: 22px;
     line-height: 28px;
-    text-align: left;
-    text-wrap: center;
-    color: rgba(250, 183, 87, 1);
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
-p::first-letter {
+.B {
     float:left;
     font-size: 2em;
-    font-weight: 100;
-    line-height: 80%;
-    color: rgba(250, 183, 87, 1);
+    font-weight: 200;
+    line-height: 50%;
+    color:  rgba(250, 183, 87, 1);
 }
 
-.color-block {
-    background-color: rgba(36, 22, 22, 1);
+.I {
+    float:left;
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 50%;
+    color:  rgba(36, 22, 22, 1);
+}
+
+.O {
+    float:left;
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 50%;
+    color:  rgba(250, 183, 87, 1);
+}
+
+.M {
+    float:left;
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 50%;
+    color:  rgba(36, 22, 22, 1);
 }
 
 .flex-container-dolls {
@@ -125,14 +145,25 @@ p::first-letter {
     align-items: center;
 }
 
-
 .about-author {
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: 40px;
+    color: rgba(250, 183, 87, 1);
     margin-left: 300px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 120px;
+    margin-top: 40px;
 }
 
 .born {
+    color: rgba(250, 183, 87, 1);
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight: 50;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
     margin-left: 0px;
     margin-right: 300px;
     margin-bottom: 50px;
@@ -140,24 +171,156 @@ p::first-letter {
 }
 
 .august {
-    margin-left: 300px ;
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: 40px;
+    color: rgba(36, 22, 22, 1);
+    margin-left: 300px;
+    margin-bottom: 40px;
+    margin-top: 80px;
 }
 
-.july {
+.colour-block-august {
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.july, .market-square, .ragamuffins {
+    color:black;
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight: 50;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
     margin-left: 300px;
     margin-right: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 50px;
 }
 
-.flex-container {
+.luminous {
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: 40px;
+    color: rgba(250, 183, 87, 1);
+    margin-left: 300px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.colour-block-luminous {
+    background-color: rgba(36, 22, 22, 1);
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.colour-block-filler {
+    background-color: rgba(36, 22, 22, 1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.on-those, .the-dark, .after {
+    color: rgba(250, 183, 87, 1);
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight: 50;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.saturday {
+    color: rgba(250, 183, 87, 1);
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    font-weight: 50;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 4%;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 300px;
+    margin-bottom: 180px;
+    margin-top: 180px;
+}
+
+.thus {
+    color: rgba(101, 61, 0, 1);
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    font-weight: 50;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 4%;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 300px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.saturday-quote-line, .market-quote-line {
+    border-left: 6px solid rgba(101, 61, 0, 1);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.market-quote-line {
+    border-left: 6px solid rgba(101, 61, 0, 1);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.market-image {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.flex-container-window {
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .flex-container-sculpture {
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.colour-block-market {
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.market {
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: 40px;
+    color: rgba(36, 22, 22, 1);
+    margin-left: 300px;
+    margin-bottom: 40px;
+    margin-top: 80px;
 }
