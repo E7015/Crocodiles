@@ -139,6 +139,14 @@ h1 {
     color:  rgba(36, 22, 22, 1);
 }
 
+.A {
+    float:left;
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 50%;
+    color:  rgba(250, 183, 87, 1);
+}
+
 .flex-container-dolls {
     display: flex;
     justify-content: center;
@@ -266,7 +274,7 @@ h1 {
     justify-content: center;
     margin-left: 100px;
     margin-right: 300px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     margin-top: 80px;
 }
 
@@ -323,4 +331,192 @@ h1 {
     margin-left: 300px;
     margin-bottom: 40px;
     margin-top: 80px;
+}
+
+.colour-block-street {
+    background-color: rgba(36, 22, 22, 1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.street {
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: 40px;
+    color: rgba(250, 183, 87, 1);
+    margin-left: 300px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.and, .suburban, .fictions {
+    color: rgba(250, 183, 87, 1);
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight: 50;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.colour-block-further {
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.colour-block-credits {
+    background-color: rgba(36, 22, 22, 1);
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.credits {
+    color: rgba(250, 183, 87, 1);
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight: 50;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.image-credits {
+    color: rgba(250, 183, 87, 1);
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight: 50;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.gutenberg {
+    color: rgba(250, 183, 87, 1);
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight: 50;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+
+.link {
+    color: rgba(250, 183, 87, 1);
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight: 50;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.further-reading {
+    font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: 40px;
+    color: rgba(36, 22, 22, 1);
+    margin-left: 300px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+
+}
+
+.further-links {
+    font-style:normal;
+    font-weight: 50;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color:blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a.about-link, a.luminous-link, a.market-link, a.street-link, a.contact-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.about-link, .luminous-link, .market-link, .street-link, .contact-link a:hover {
+    color: rgb(198, 123, 25);
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex: 33.33%;
+    padding-top: 100px;
 }
