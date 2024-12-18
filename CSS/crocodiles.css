@@ -39,6 +39,7 @@
 
 .backround-image {
     background-image: url(/Images/eduardo-goody-MQ-Rkg64jf4-unsplash\ \(2\).jpg);
+    width: max-content;
 }
 
 .container {
@@ -50,7 +51,6 @@
 
 .image-container {
     width: 100vw;
-    height: 900px;
     overflow:hidden;
 }
 
@@ -84,8 +84,8 @@ h1 {
 
 .colour-block-intro {
     background-color: #ffffff;
-    padding-top: 40px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .colour-block-about-author {
@@ -172,7 +172,7 @@ h1 {
     line-height: 28px;
     display: flex;
     justify-content: center;
-    margin-left: 0px;
+    margin-left: 168px;
     margin-right: 300px;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -244,6 +244,10 @@ h1 {
     margin-right: 300px;
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+.woman-sculpture-image {
+    padding-bottom: 80px;
 }
 
 .saturday {
@@ -541,4 +545,67 @@ a.about-link, a.luminous-link, a.market-link, a.street-link, a.contact-link {
 
 #myBtn:hover {
     background-color: rgb(49, 49, 49);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    .august {
+        margin-left: 130px;
+    }
+
+    .about-author, .luminous, .market, .street, .further-reading {
+        margin-left: 130px;
+    }
+
+    .intro {
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+
+    .text-overlay-h1 {
+        position:absolute;
+        top: 70%;
+        left: 24.5%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        font-size: 70px;
+        line-height: 75px;
+    }
+    
+    .text-overlay-h2 {
+        font-family: "Cormorant Garamond", Georgia, 'Times New Roman', Times, serif;
+        font-weight: 100;
+        font-style: normal;
+        position: absolute;
+        top: 85%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        font-size: 28px;
+    }
+    
 }
