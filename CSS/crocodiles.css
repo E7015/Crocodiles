@@ -10,12 +10,15 @@
     font-size: 100%;
 }
 
+.html {
+    scroll-behavior: smooth;
+}
+
 .header {
     padding: 100px;
     text-align: center;
     background-color:rgba(0, 0, 0, 0.648);
     color: #ffffff;
-    font-size: 30px;
     margin-right: 16px; 
 }
 
@@ -172,7 +175,7 @@ h1 {
     line-height: 28px;
     display: flex;
     justify-content: center;
-    margin-left: 168px;
+    margin-left: 0px;
     margin-right: 300px;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -419,8 +422,6 @@ h1 {
     line-height: 30px;
     display: flex;
     justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
     margin-bottom: 10px;
     margin-top: 70px;
 }
@@ -547,65 +548,139 @@ a.about-link, a.luminous-link, a.market-link, a.street-link, a.contact-link {
     background-color: rgb(49, 49, 49);
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+.clay-figures-group-image {
+    max-width: 920px;
+}
+
+.woman-sculpture-image {
+    max-width: 920px;
+}
+
+/* Extra small devices (small phones, 320px and down) */
+@media only screen and (max-width: 320px) {
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
-    .august {
-        margin-left: 130px;
+/* Small devices (portrait tablets and large phones, 425px and down) */
+@media only screen and (max-width: 425px) {
+    .clay-figures-group-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
     }
 
-    .about-author, .luminous, .market, .street, .further-reading {
-        margin-left: 130px;
-    }
-
-    .intro {
-        margin-left: 130px;
-        margin-right: 130px;
+    .woman-sculpture-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .text-overlay-h1 {
-        position:absolute;
-        top: 70%;
-        left: 24.5%;
-        transform: translate(-50%, -50%);
-        color: #ffffff;
-        font-size: 70px;
-        line-height: 75px;
+        top: 65%;
+        left: 26%;
+        font-size: 24px;
+        line-height: 1;
     }
     
     .text-overlay-h2 {
-        font-family: "Cormorant Garamond", Georgia, 'Times New Roman', Times, serif;
-        font-weight: 100;
-        font-style: normal;
-        position: absolute;
-        top: 85%;
-        left: 15%;
-        transform: translate(-50%, -50%);
-        color: #ffffff;
-        font-size: 28px;
+        top: 60%;
+        left: 12%;
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .clay-figures-group-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .woman-sculpture-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 1024px and down) */
+@media only screen and (max-width: 1024px) {
+    .text-overlay-h1 {
+        top: 65%;
+        left: 26%;
+        font-size: 56px;
+        line-height: 1;
     }
     
+    .text-overlay-h2 {
+        top: 60%;
+        left: 12%;
+        font-size: 20px;
+    }
+
+    .clay-figures-group-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .woman-sculpture-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and down) */
+@media only screen and (max-width: 1440px) {
+    .text-overlay-h1 {
+        top: 66%;
+        left: 24%;
+    }
+    
+    .text-overlay-h2 {
+        top: 80%;
+        left: 12%;
+    }
+
+    .topnav a {
+        padding: 36px 36px;
+        font-size: 26px;
+    }
+
+    .about-author, .intro, .august, .july, .luminous, .on-those, .the-dark, .after, .market, .market-square, .ragamuffins, .street, .and, .suburban, .fictions, .further-reading, .further-links {
+        margin-left: 255px;
+        margin-right: 255px;
+    }
+
+    .born {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .saturday, .thus {
+        margin-left: 50px;
+        margin-right: 255px;
+    }
+
+    .clay-figures-group-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .woman-sculpture-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
 }
