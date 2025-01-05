@@ -4,22 +4,9 @@
 
 /* css reset */
 
-* {
-    padding: 0;
-    margin: 0;
-    font-size: 100%;
-}
 
 .html {
     scroll-behavior: smooth;
-}
-
-.header {
-    padding: 100px;
-    text-align: center;
-    background-color:rgba(0, 0, 0, 0.648);
-    color: #ffffff;
-    margin-right: 16px; 
 }
 
 .topnav {
@@ -40,16 +27,11 @@
     color: rgb(198, 123, 25);
 }
 
-.backround-image {
-    background-image: url(/Images/eduardo-goody-MQ-Rkg64jf4-unsplash\ \(2\).jpg);
-    width: max-content;
-}
-
 .container {
     position: absolute;
     margin: 0%;
     width: 100vw;
-    height:60px;
+    height: 60px;
 }
 
 .image-container {
@@ -59,12 +41,15 @@
 
 .text-overlay-h1 {
     position:absolute;
-    top: 82%;
-    left: 22.5%;
+    top: 84%;
+    left: 25%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: 78px;
+    font-size: 40px;
     line-height: 85px;
+    font-family: "Cormorant Garamond", Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .text-overlay-h2 {
@@ -72,18 +57,12 @@
     font-weight: 100;
     font-style: normal;
     position: absolute;
-    top: 97%;
-    left: 11.5%;
+    top: 100%;
+    left: 15.5%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: 28px;
+    font-size: 24px;
 }
-
-h1 {
-    font-family: "Cormorant Garamond", Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-style: normal;
-  }
 
 .colour-block-intro {
     background-color: #ffffff;
@@ -264,7 +243,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-left: 100px;
-    margin-right: 300px;
+    margin-right: 220px;
     margin-bottom: 180px;
     margin-top: 180px;
 }
@@ -280,7 +259,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-left: 100px;
-    margin-right: 300px;
+    margin-right: 220px;
     margin-bottom: 60px;
     margin-top: 80px;
 }
@@ -291,7 +270,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .market-quote-line {
@@ -300,7 +279,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .market-image {
@@ -410,7 +389,7 @@ h1 {
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 50px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .gutenberg {
@@ -438,7 +417,7 @@ h1 {
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .further-reading {
@@ -556,55 +535,157 @@ a.about-link, a.luminous-link, a.market-link, a.street-link, a.contact-link {
     max-width: 920px;
 }
 
-/* Extra small devices (small phones, 320px and down) */
-@media only screen and (max-width: 320px) {
-
-}
 
 /* Small devices (portrait tablets and large phones, 425px and down) */
 @media only screen and (max-width: 425px) {
-    .clay-figures-group-image {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-    }
-
-    .woman-sculpture-image {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-    }
-
     .text-overlay-h1 {
-        top: 65%;
-        left: 26%;
-        font-size: 24px;
-        line-height: 1;
+        margin-top: 0px !important;
+        margin-bottom: 80px;
+        margin-left: 70px;
+        margin-right: 0px !important;
     }
     
     .text-overlay-h2 {
-        top: 60%;
-        left: 12%;
-        font-size: 20px;
+        margin-top: 5px !important;
+        margin-left: 50px !important;
     }
+}
+
+/* Small devices (portrait tablets and large phones, 655px and down) */
+@media only screen and (max-width: 655px) {
+    .text-overlay-h1 {
+        font-size: 20px !important;
+        line-height: 28px !important;
+        color: black !important;
+        margin-top: 85px;
+        margin-bottom: 80px;
+        margin-left: 70px;
+    }
+    
+    .text-overlay-h2 {
+        font-size: 16px !important;
+        color: black !important;
+        margin-top: 85px;
+        margin-bottom: 80px;
+        margin-left: 70px;
+    }
+
+    .intro {
+        margin-top: 140px;
+        font-size: 16px !important;
+        line-height: 18px !important;
+    }
+
+    .intro, .born, .july, .on-those, .the-dark, .after, .saturday, .market-square, .ragamuffins, .thus, .and, .suburban, .fictions, .further-links {
+        font-size: 10px !important;
+        line-height: 18px !important;
+        margin-left: 60px;
+        margin-right: 40px;
+    }
+
+    .about-author, .august, .luminous, .market, .street, .further-reading {
+        font-size: 20px !important;
+    }
+
+    .saturday, .thus {
+        margin-left: 10px !important;
+        margin-right: 20px !important;
+    }
+
+    #myBtn { 
+        padding: 12px; 
+        font-size: 12px; 
+    }
+
+    .credits {
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .image-credits {
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .gutenberg {
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .link {
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
 }
 
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
+    .text-overlay-h1 {
+        top: 45% !important;
+        left: 25% !important;
+        font-size: 16px !important;
+        line-height: 28px !important;
+    }
+    
+    .text-overlay-h2 {
+        top: 53% !important;
+        left: 18% !important;
+        font-size: 10px !important;
+    }
+
     .clay-figures-group-image {
-        width: 100%;
+        max-width: 400px;
         height: auto;
         display: flex;
         justify-content: center;
     }
 
     .woman-sculpture-image {
-        width: 100%;
+        max-width: 400px;
         height: auto;
         display: flex;
         justify-content: center;
+    }
+
+    .born {
+        font-size: 18px;
+        line-height: 28px;
+        margin-right: 0px;
+    }
+
+    .about-author, .august {
+        margin-right: 40px;
+    }
+
+    .intro, .july, .on-those, .the-dark, .after, .saturday, .market-square, .ragamuffins, .thus, .and, .suburban, .fictions, .further-links {
+        font-size: 18px;
+        line-height: 28px;
+        margin-left: 60px;
+        margin-right: 40px;
+    }
+
+    .topnav a{
+        padding: 16px 16px !important;
+        font-size: 8px !important;
+    }
+
+    .saturday-quote-line, .market-quote-line {
+        margin-left: 60px !important;
     }
 }
 
@@ -612,29 +693,33 @@ a.about-link, a.luminous-link, a.market-link, a.street-link, a.contact-link {
 @media only screen and (max-width: 1024px) {
     .text-overlay-h1 {
         top: 65%;
-        left: 26%;
-        font-size: 56px;
-        line-height: 1;
+        left: 29%;
+        font-size: 26px;
+        line-height: 50px;
     }
     
     .text-overlay-h2 {
         top: 60%;
-        left: 12%;
-        font-size: 20px;
+        left: 22%;
+        font-size: 16px;
     }
 
-    .clay-figures-group-image {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
+    .topnav a{
+        padding: 20px 20px;
+        font-size: 16px !important;
     }
 
-    .woman-sculpture-image {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
+    .about-author, .intro, .august, .july, .luminous, .on-those, .the-dark, .after, .market, .market-square, .ragamuffins, .street, .and, .suburban, .fictions, .further-reading, .further-links {
+        margin-left: 100px !important;
+        margin-right: 100px !important;
+    }
+
+    .about-author, .august, .luminous, .market, .street, .further-reading {
+        font-size: 30px;
+    }
+
+    .saturday-quote-line, .market-quote-line {
+        margin-left: 50px;
     }
 }
 
@@ -642,12 +727,12 @@ a.about-link, a.luminous-link, a.market-link, a.street-link, a.contact-link {
 @media only screen and (max-width: 1440px) {
     .text-overlay-h1 {
         top: 66%;
-        left: 24%;
+        left: 27%;
     }
     
     .text-overlay-h2 {
-        top: 80%;
-        left: 12%;
+        top: 78%;
+        left: 17%;
     }
 
     .topnav a {
@@ -667,7 +752,7 @@ a.about-link, a.luminous-link, a.market-link, a.street-link, a.contact-link {
 
     .saturday, .thus {
         margin-left: 50px;
-        margin-right: 255px;
+        margin-right: 180px;
     }
 
     .clay-figures-group-image {
@@ -682,5 +767,47 @@ a.about-link, a.luminous-link, a.market-link, a.street-link, a.contact-link {
         height: auto;
         display: flex;
         justify-content: center;
+    }
+}
+
+/* 4K devices (2560px and up) */
+@media only screen and (min-width: 2560px) {
+    .text-overlay-h1 {
+        font-size: 70px;
+        line-height: 130px;
+        top: 66%;
+        left: 24%;
+    }
+
+    .text-overlay-h2 {
+        top: 80%;
+        left: 13.5%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        font-size: 40px;
+    }
+
+    .topnav a{
+        padding: 50px 50px;
+        font-size: 40px;
+    }
+
+    #myBtn { 
+        padding: 25px; 
+        font-size: 32px; 
+      }
+
+    .intro, .born, .july, .on-those, .the-dark, .after, .saturday, .market-square, .ragamuffins, .thus, .and, .suburban, .fictions, .further-links {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .about-author, .august, .luminous, .market, .street, .further-reading {
+        font-size: 60px;
+    }
+
+    .credits, .image-credits, .gutenberg, .link {
+        font-size: 40px;
+        line-height: 50px;
     }
 }
